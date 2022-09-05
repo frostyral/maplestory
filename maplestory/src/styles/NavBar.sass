@@ -1,6 +1,5 @@
 nav
     position: relative
-    //width: 100%
     display: flex
     flex-direction: column
     align-items: center
@@ -9,6 +8,9 @@ nav
     background-color: black
     text-align: center
     
+    bar
+        visibility: hidden
+
     ul img
         margin-right: 40px
 
@@ -57,7 +59,7 @@ nav
         transition: transform 1s
 
     i
-        color: gray
+        color: lightgray
         margin-right: 20px
         font-size: 22px
 
@@ -65,6 +67,51 @@ nav
         color: red
         cursor: pointer
         transition: transform 1s
+
+    ul bar i
+        visibility: inherit
+        //opacity: 0
+
+@media only screen and ( max-width: 1024px  )
+    
+    nav 
+        position: fixed
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+
+        ul li
+            //visibility: hidden
+            //opacity: 0
+            margin-top: 10px
+            top: 0
+            left: 0
+            height: 100%
+            width: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+            text-align: center
+            gap: 1.5rem
+        
+        ul social
+            margin-top: 40px
+            display: flex
+            flex-direction: row
+            align-items: center
+            text-align: center
+
+        ul bar i
+        position: absolute
+        //visibility: hidden
+        //opacity: 0
+        top: 2rem
+        right: 2rem
+
+        button
+            margin-top: 40px
+            margin-bottom: 20px
 
 
 

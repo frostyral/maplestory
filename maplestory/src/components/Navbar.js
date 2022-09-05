@@ -15,6 +15,7 @@ function NavBar() {
                     <li><a href="">Community</a></li>
                     <li><a href="">Support</a></li>
                     <li><a href="">Buy Merch</a></li>
+
                     <social>
                     <a href="https://www.facebook.com/maplestory"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://twitter.com/maplestory"><i class="fab fa-twitter"></i></a>
@@ -24,10 +25,9 @@ function NavBar() {
                     <a href="https://www.twitch.tv/maplestory"><i class="fab fa-twitch"></i></a>
                     <a href="https://www.tiktok.com/@maplestory"><i class="fab fa-tiktok"></i></a>
                     </social>
-                    
-                    <button href="">PLAY FREE NOW</button>   
-                </ul>      
-                 
+
+                    <button href="">PLAY FREE NOW</button> 
+                </ul>
   </nav>
     )
 }
