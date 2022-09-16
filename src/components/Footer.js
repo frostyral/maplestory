@@ -11,12 +11,15 @@ function Footer() {
           <li>
             <a href="">Your Account</a>
           </li>
+          <b class="before-item"></b>
           <li>
             <a href="">Get Support</a>
           </li>
+          <b class="before-item"></b>
           <li>
             <a href="">About Nexon</a>
           </li>
+          <b class="before-item"></b>
           <li>
             <a href="">Privacy Policy</a>
           </li>
