@@ -52,6 +52,38 @@
     font-size: 18px
 
 
+.slideshow
+    width: 100%
+    position: relative
+    display: flex
+    flex-direction: row
+    justify-content: center
+    img
+       height: auto
+       width: 100%
+       object-fit: cover
+    
+
+    .slideshow-buttons
+        flex: row
+        flex-direction: column
+        justify-content: center
+        button
+            position: relative
+            bottom: 10px
+            background-color: #d53414
+            color: white
+            text-decoration: none
+            border: 2px solid black
+            font-weight: bold
+            padding: 10px 25px
+            border-radius: 5px
+        button:hover
+            background-color: #b52f13
+            border: 2px solid black
+            cursor: pointer
+            transition: transform 1s
+
 @media only screen and ( max-width: 1024px  )
 
     .hero
