@@ -9,7 +9,11 @@ function Body() {
   return (
     <body>
       <div class="header-home">
-        <img src={header_image} class="header-image" />
+        <img
+          src={header_image}
+          class="header-image"
+          alt="header_image"
+        />
         <a>
           <button
             href="https://maplestory.nexon.net/"
@@ -22,7 +26,11 @@ function Body() {
       <div class="section-news">
         <div class="box-update-news">
           <div class="card">
-            <img class="card-image" src={news_default} />
+            <img
+              class="card-image"
+              src={news_default}
+              alt="news_default"
+            />
             <div class="card-textbox">
               <a
                 class="card-title"

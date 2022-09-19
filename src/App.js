@@ -27,6 +27,7 @@ function app() {
       </head>
 
       <NavBar />
+
       <div>
         <Body />
       </div>

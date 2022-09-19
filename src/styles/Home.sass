@@ -34,6 +34,7 @@ html, body
   
 .section-news
     background-image: url('../media/news_background.jpg')
+    width: 100%
     height: 1000px
     display: flex
     flex-direction: column
@@ -41,6 +42,7 @@ html, body
     justify-content: center
     
     .box-update-news 
+        
         display: flex
         flex-direction: column
         justify-content: center
@@ -101,10 +103,38 @@ html, body
                 
             .card-button:hover 
                 color: #d53414
-                
-                
+
+
+@media only screen and ( max-width: 1010px  )          
+        
+    .section-news
+        width: 100%
+        .box-update-news 
+            .card
+                width: 100%
             
 
+@media only screen and ( max-width: 910px  )
 
+    .section-news
+        width: 100%
+        .box-update-news 
+            padding: 20px 20px 20px 20px
+            .card
+                flex-direction: column
+                width: 100%
+                height: auto
+                
+                .card-image
+                    width: 100%
+                    height: 294px
+                    object-fit: cover
+                .card-textbox 
+                    padding-top: 10px
+                    padding-bottom: 40px
+                    padding-left: 30px
+                    display: flex
+                    flex-direction: column
+                    text-align: justify
     
     
