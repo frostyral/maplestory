@@ -53,7 +53,11 @@ function Body() {
             </div>
           </div>
           <div class="card">
-            <img class="card-image" src={news_community} />
+            <img
+              class="card-image"
+              src={news_community}
+              alt="news_community"
+            />
             <div class="card-textbox">
               <a
                 class="card-title"
@@ -76,7 +80,11 @@ function Body() {
             </div>
           </div>
           <div class="card">
-            <img class="card-image" src={news_maintenance} />
+            <img
+              class="card-image"
+              src={news_maintenance}
+              alt="news_maintenance"
+            />
             <div class="card-textbox">
               <a
                 class="card-title"
