@@ -9,24 +9,35 @@ function Footer() {
       <div>
         <ul>
           <li>
-            <a href="">Your Account</a>
+            <a href="https://www.nexon.com/account/setting/">
+              Your Account
+            </a>
           </li>
           <b class="before-item"></b>
           <li>
-            <a href="">Get Support</a>
+            <a href="https://support.nexon.net/">Get Support</a>
           </li>
           <b class="before-item"></b>
           <li>
-            <a href="">About Nexon</a>
+            <a href="https://www.nexon.net/corporate/about-nexon/">
+              About Nexon
+            </a>
           </li>
           <b class="before-item"></b>
           <li>
-            <a href="">Privacy Policy</a>
+            <a href="https://www.nexon.com/main/legal/privacy/">
+              Privacy Policy
+            </a>
           </li>
         </ul>
 
         <ul>
-          <img href="" class="logo" src={logo} alt="Logo" />
+          <img
+            href="http://localhost:3000"
+            class="logo"
+            src={logo}
+            alt="Logo"
+          />
           <a>© 2022 Talandral Inc. All Rights Reserved</a>
         </ul>
       </div>
