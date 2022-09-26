@@ -5,137 +5,58 @@
 html, body
     overflow-x: hidden
 
-.header-home
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-    height: 500px
-    .header-image
-        height: 600px
-        width: 100%
-        object-fit: cover
-    .slideshow-button 
-        position: relative
-        bottom: 40px
-        background-color: #d53414
-        color: white
-        text-decoration: none
-        border: 2px solid black
-        padding: 15px 40px
-        border-radius: 5px
-        font-size: 22px
-        font-weight: bold
-    .slideshow-button:hover 
-        background-color: #b52e13d7
-        color: white
-        border: 2px solid black
-        cursor: pointer
-  
-.section-news
-    background-image: url('../media/news_background.jpg')
-    width: 100%
-    height: 1000px
-    display: flex
-    flex-direction: column
-    align-items: center
-    justify-content: center
+.title
+    font-weight: bold
+    font-size: 32px
     
-    .box-update-news 
-        
-        display: flex
-        flex-direction: column
-        justify-content: center
-        .card 
-            background-color: white
-            width: 999px
-            height: 211px
-            display: flex
-            flex-direction: row
-            margin-bottom: 20px
-            border-radius: 0%
-            border: transparent
-            .card-image 
-                width: 349px
-                height: 100%
-                
-            .card-textbox 
-                padding-top: 10px
-                padding-left: 30px
-                
-                display: flex
-                flex-direction: column
-                text-align: justify
-                
-            .card-title 
-                text-align: left
-                position: relative
-                padding-top: 10px
-                padding-right: 20px
-                font-weight: bold
-                font-size: 25px
-                color: black
-                text-decoration: none
-                
-        
-            .card-title:hover 
-                color: #d53414
-            p 
-                padding-right: 50px
-                color: #484846
-                font-size: 20px
-                
-                
-            .timestamp 
-                position: absolute
-                bottom: 0
-                font-size: 16px
-                color: rgb(135, 130, 130)
-                font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri','Trebuchet MS', sans-serif
-            .card-button 
-                position: absolute
-                right: 20px
-                bottom: 15px
-                font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
-                text-decoration: none
-                color: black
-                font-size: 18px
-                
-            .card-button:hover 
-                color: #d53414
 
 
-@media only screen and ( max-width: 1010px  )          
-        
-    .section-news
+.header-home
+    height: auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .header
+        background-image: url('../media/header-image-two.jpg')
+        background-position: center
         width: 100%
-        .box-update-news 
-            .card
-                width: 100%
+        height: 600px
+        
+    
+.News
+    position: relative
+    background-image: url('../media/news_background.jpg')
+    background-repeat: cover
+    background-size: cover
+    width: 100%
+    height: auto
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: left
+    padding-top: 80px
+    padding-bottom: 100px
+    text-align: left
+
+.slideshow-button 
+    position: relative
+    bottom: 115px
+    background-color: #d53414
+    color: white
+    text-decoration: none
+    border: 2px solid black
+    padding: 15px 40px
+    border-radius: 5px
+    font-size: 22px
+    font-weight: bold
             
+.slideshow-button:hover 
+    background-color: #b52e13d7
+    color: white
+    border: 2px solid black
+    cursor: pointer
 
 @media only screen and ( max-width: 910px  )
 
-    .section-news
-        width: 100%
-        height: 100%
-        .box-update-news 
-            padding: 20px 20px 20px 20px
-            .card
-                flex-direction: column
-                width: 100%
-                height: auto
-                
-                .card-image
-                    width: 100%
-                    height: 294px
-                    object-fit: cover
-                .card-textbox 
-                    padding-top: 10px
-                    padding-bottom: 40px
-                    padding-left: 30px
-                    display: flex
-                    flex-direction: column
-                    text-align: justify
-    
     

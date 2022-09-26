@@ -1,7 +1,7 @@
-import './styles/Home.sass';
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import Body from './components/Body';
+import News from './components/News';
 
 function app() {
   return (
@@ -27,9 +27,18 @@ function app() {
       </head>
 
       <NavBar />
+      <Body />
+      <div class="News">
+        <button
+          href="https://maplestory.nexon.net/"
+          class="slideshow-button"
+        >
+          PLAY MAPLESTORY NOW
+        </button>
 
-      <div>
-        <Body />
+        <h2 className="title">FEATURED NEWS & UPDATES</h2>
+
+        <News />
       </div>
 
       <foot>
