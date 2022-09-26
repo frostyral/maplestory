@@ -17,10 +17,7 @@ export default function Cards(props) {
             <p>
               {props.description}
               <p class="timestamp">{props.timestamp}</p>
-              <a
-                class="card-button"
-                href="https://maplestory.nexon.net/news/76652/content-closure-notice"
-              >
+              <a class="card-button" href={props.linkreference}>
                 READ MORE
               </a>
             </p>

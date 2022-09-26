@@ -35,9 +35,7 @@ function app() {
         >
           PLAY MAPLESTORY NOW
         </button>
-
         <h2 className="title">FEATURED NEWS & UPDATES</h2>
-
         <News />
       </div>
 
