@@ -1,17 +1,28 @@
 import React from 'react';
 import '../styles/NavBar.sass';
 import logo from '../media/logo.png';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <nav class="navbar">
       <ul>
-        <img href="" class="logo" src={logo} alt="Logo" />
+        <Link>
+          <img
+            href="http://localhost:3000"
+            class="logo"
+            src={logo}
+            alt="Logo"
+          />
+        </Link>
+
         <li>
           <a href="http://localhost:3000">News</a>
         </li>
         <li>
-          <a href="http://localhost:3000">Maple World</a>
+          <Link to="/maps">
+            <a>Maple World</a>
+          </Link>
         </li>
         <li>
           <a href="http://localhost:3000">Community</a>
