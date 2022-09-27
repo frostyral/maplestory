@@ -1,4 +1,4 @@
-import '../styles/News.sass';
+import '../../styles/News.sass';
 
 export default function Cards(props) {
   return (

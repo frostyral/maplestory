@@ -11,7 +11,7 @@ function NavBar() {
           <a href="http://localhost:3000">News</a>
         </li>
         <li>
-          <a href="http://localhost:3000">The Game</a>
+          <a href="http://localhost:3000">Maple World</a>
         </li>
         <li>
           <a href="http://localhost:3000">Community</a>
