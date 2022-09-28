@@ -16,4 +16,12 @@ export default [
       'New Leaf City is a town founded on the ruins of an ancient city, called Old Sappe Village, that sunk into the ocean over 1000 years ago. It housed a technologically advanced civilization that used powerful techniques to perform good acts.',
     imageUrl: './media/newleaf.jpg',
   },
+  {
+    title: 'Aquarium',
+    continent: 'AQUA ROAD',
+    level: 'Level 80 - 100',
+    description:
+      'Aqua Road is an underwater region, accessible via an entrance at the base of Orbis Tower. Aquarium, known for its popular zoo, is Aqua Roads main city and lies at the bottom of the seabed. Many sea creatures and monsters can be found here, including ruthless Sharks.',
+    imageUrl: './media/aquarium.png',
+  },
 ];
