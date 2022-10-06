@@ -2,6 +2,8 @@ import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import Body from './components/Home/Body';
 import Maps_Body from './components/Maps/Maps_Body';
+import Login from './components/Account/Login';
+import Register from './components/Account/Register';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +31,7 @@ function app() {
           href="../assets/dist/css/bootstrap.min.css"
           rel="stylesheet"
         />
+        <link href="./styles/account.css" rel="stylesheet"></link>
         <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
       </head>
       <Router>
@@ -37,6 +40,8 @@ function app() {
           s
           <Route path="/" element={<Body />} />
           <Route exact path="/maps" element={<Maps_Body />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/register" element={<Register />} />
         </Routes>
 
         <foot>

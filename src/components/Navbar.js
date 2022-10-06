@@ -15,17 +15,18 @@ function NavBar() {
             alt="Logo"
           />
         </Link>
-
-        <li>
-          <a href="http://localhost:3000">News</a>
-        </li>
         <li>
           <Link to="/maps">
             <a>Maple World</a>
           </Link>
         </li>
         <li>
-          <a href="http://localhost:3000">Community</a>
+          <a href="http://localhost:3000">News</a>
+        </li>
+        <li>
+          <Link to="/login">
+            <a>Account</a>
+          </Link>
         </li>
         <li>
           <a href="http://localhost:3000">Support</a>
