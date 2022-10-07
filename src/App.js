@@ -4,6 +4,7 @@ import Body from './components/Home/Body';
 import Maps_Body from './components/Maps/Maps_Body';
 import Login from './components/Account/Login';
 import Register from './components/Account/Register';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
   BrowserRouter as Router,
@@ -33,6 +34,10 @@ function app() {
         />
         <link href="./styles/account.css" rel="stylesheet"></link>
         <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+          src="https://kit.fontawesome.com/37c6d1b1d7.js"
+          crossorigin="anonymous"
+        ></script>
       </head>
       <Router>
         <NavBar />

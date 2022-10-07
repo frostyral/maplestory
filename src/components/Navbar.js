@@ -32,7 +32,7 @@ function NavBar() {
           <a href="http://localhost:3000">Support</a>
         </li>
         <li>
-          <a href="http://localhost:3000">Buy Merch</a>
+          <a href="http://localhost:3000">Talandral</a>
         </li>
 
         <social>
