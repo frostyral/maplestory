@@ -1,20 +1,32 @@
 import React from 'react';
 import '../../styles/account.sass';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import logo from '../../media/nexon_logo_text.png';
+import { Link } from 'react-router-dom';
 
 function Login() {
   //const classes = styles()
   return (
     <body class="section-login">
       <div class="login-card">
+        <Link to="/">
+          <img
+            href="https://www.nexon.com/main/en"
+            class="logo"
+            src={logo}
+            alt="Logo"
+          />
+        </Link>
         <div class="login-nav">
-          s
           <ul>
             <li>
-              <a class="button-login">LOG IN</a>
+              <a class="button-login-active" href="/login">
+                LOG IN
+              </a>
             </li>
             <li>
-              <a class="button-create">CREATE AN ACCOUNT</a>
+              <a class="button-create" href="/register">
+                CREATE AN ACCOUNT
+              </a>
             </li>
           </ul>
         </div>

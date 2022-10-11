@@ -5,21 +5,29 @@
 .section-login 
   background-image: url(../media/account_background.jpg)
   width: 100%
-  height: 800px
+  height: 750px
   display: flex
   justify-content: center
   align-items: center
+  img
+      width: 130px
+      max-height: 50px
+      margin-left: 1.5rem
+    
   .login-card
     background-color: #2b2b2b
     width: 800px 
-    height: auto
+    height: 530px
     padding-top: 2rem
     padding-bottom: 4rem
     display: flex
     flex-direction: column
+    
     .login-nav
       padding-top: 1rem
-      
+
+      ul
+    
       ul li
         list-style-type: none
         display: inline-block
@@ -34,8 +42,24 @@
       
       .button-login
         color: white
+        border-bottom: none
+        padding: 13px 10px
+
+      .button-login-active
+        color: white
         border-bottom: 2px solid #0078ff
         padding: 13px 10px
+
+      .button-register
+        color: white
+        border-bottom: none
+        padding: 13px 10px
+
+      .button-register-active
+        color: white
+        border-bottom: 2px solid #0078ff
+        padding: 13px 10px
+
     .login-container
       display: flex
       flex-direction: row
@@ -132,7 +156,117 @@
             font-size: 22px
             padding-right: 0.5rem
             
-              
+    .register-container
+      display: flex
+      flex-direction: row
+      .register-form
+        padding-top: 1rem
+        padding-left: 2rem
+        display: flex
+        flex-direction: column
+        max-width: 400px
+        select
+          background-color: #0C0C0CB3
+          color: #FFFFFF80
+          padding-left: 1rem
+          font-family: Arial, Helvetica, sans-serif
+          border: 1px solid gray
+          margin-top: 0.1rem
+          height: 50px
+        .dropdown-country
+          max-width: 320px
+          
+          
+        .container-dropdown-birthday
+          max-width: 320px
+          display: flex
+          flex-direction: row
+          select
+            max-width: 103px
+            margin-right: 0.35rem
+            margin-top: 0.5rem
+        a
+          padding-top: 0.5rem
+          color: white 
+          font-size: 12px
+          font-family: Arial, Helvetica, sans-serif
+        .login-captcha
+          margin-top: 1rem
+          font-size: 12px
+          color: #FFFFFF80
+          font-family: Arial, Helvetica, sans-serif
+          a
+            color: #FFFFFF80
+            padding: 0 3px
+            font-family: Arial, Helvetica, sans-serif
+
+        li
+          list-style-type: none
+          pointer: pointer
+          a
+            color: #CCCCCC 
+            border-bottom: 1px solid white
+            text-decoration: none
+            font-family: Arial, Helvetica, sans-serif
+            font-size: 14px
+            font-weight: bold
+          a:hover
+            color: white
+            
+        .login-trouble
+          
+        h5
+          color: #FFFFFF80 
+          font-size: 16px
+          font-family: Arial, Helvetica, sans-serif
+        button
+          font-size: 14px
+          font-weight: bold
+          background-color: white
+          max-width: 320px
+          height: 50px
+          font-family: Arial, Helvetica, sans-serif
+          text-decoration: none
+          border: none
+          margin-top: 1rem
+          margin-bottom: 1rem
+        button:hover
+          background-color: #0078ff
+          color: white
+        
+      .login-social
+        padding-top: 1rem
+        display: flex
+        flex-direction: column
+        ul
+          display: flex
+          flex-direction: column
+          button
+            width: 320px
+            height: 50px
+            margin-bottom: 0.5rem
+            border: transparent
+            font-size: 15px
+            font-weight: bold
+            font-family: Arial, Helvetica, sans-serif
+          button:hover
+            filter: brightness(110%)
+          .button-google
+              background-color: #4285f4
+              color: white
+          .button-facebook
+              background-color: #3b579d
+
+              color: white
+          .button-apple
+              background-color: #f0f0f0
+              color: black
+          .button-twitter
+              background-color: #1da1f2
+              color: white
+          i
+            font-size: 22px
+            padding-right: 0.5rem
 
             
       

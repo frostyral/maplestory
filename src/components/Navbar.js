@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <nav class="navbar">
       <ul>
-        <Link>
+        <Link to="/">
           <img
             href="http://localhost:3000"
             class="logo"
